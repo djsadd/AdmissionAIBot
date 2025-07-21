@@ -1,0 +1,12 @@
+.env
+
+venv/
+
+
+.sqlite
+node_modules/
+.wwebjs_auth/
+.wwebjs_cache/
+.docx
+.db
+.txt
