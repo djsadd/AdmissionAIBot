@@ -3,7 +3,7 @@ const axios = require('axios');
 
 async function testAskAI() {
     try {
-        const response = await axios.post('http://127.0.0.1:8000/ask_ai/', {
+        const response = await axios.post('http://192.168.115.194:8000/ask_ai/', {
             uuid: uuidv4(), // добавлен uuid
             query: 'В чем ваше преисущество перед другими университетами?',
             platform: 'Whatsapp'
@@ -21,4 +21,3 @@ async function testAskAI() {
 }
 
 testAskAI();
-Мож
